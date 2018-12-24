@@ -1,0 +1,18 @@
+Heroku - Spring Boot
+
+# Se autentica
+heroku login
+
+# Cria o projeto no Heroku
+heroku create
+
+# Envia o master para o heroku
+git push heroku master
+
+# abre a aplicação
+heroku open
+
+# Envia as atualizações para o heroku
+# e refaz o deploy
+git commit -m "Comentario"
+git push heroku master
